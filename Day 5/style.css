@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #42a7a1;
+  top: 50%;
+  left: 50%;
+  margin-left: 550px;
+  margin-top: 280px;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 240px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.box-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 12px 14px;
+  background-color: #f1ba64;
+  font-size: 12px;
+  color: #fff;
+}
+
+.hd-right {
+  margin-top: 2px;
+  transform: translateX(20px);
+}
+
+.hd-right p {
+  transform: translateX(-20px);
+  /* padding-right: 10px; */
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hd-right em {
+  margin-left: 5px;
+  font-style: normal;
+}
+
+.box-bd {
+  padding: 0 10px;
+}
+
+div[class^='line'] {
+  height: 45px;
+}
+
+.line-one {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.line-one div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 45px;
+}
+
+.line-one div em {
+  display: inline-block;
+  width: 15px;
+  height: 4px;
+  margin-right: 5px;
+  border-radius: 6px;
+  background-color: #fa7373;
+}
+
+.line-one div:last-child em {
+  background-color: #7ba2ff;
+}
+
+.line-one div span {
+  font-size: 12px;
+  color: #787878;
+}
+
+.line-two {
+}
+
+.line-three {
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+}
+
+.line-four {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.bd-red {
+  position: absolute;
+  left: 20px;
+  top: 110px;
+}
+
+.bd-red-points div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fa7373;
+  cursor: pointer;
+}
+
+.bd-red-tips div {
+  display: none;
+  position: absolute;
+  /* width: 20px; */
+  height: 25px;
+  line-height: 15px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fa7373;
+  font-size: 12px;
+  color: #fff;
+}
+
+.bd-red-tips .tips1 {
+  left: 16px;
+  top: 120px;
+}
+
+.bd-red-tips .tips1 span {
+  position: absolute;
+  display: inline-block;
+  left: 10px;
+  top: 25px;
+  /* width: 5px; */
+  /* height: 5px; */
+  border: 5px solid transparent;
+  border-top: 5px solid #fa7373;
+  /* background-color: pink; */
+}
+
+.bd-red-points .points1 {
+  left: 28px;
+  top: 152px;
+}
+
+.bd-blue {
+  position: absolute;
+  left: 20px;
+  top: 112px;
+}
+
+.bd-blue-points div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #7ba2ff;
+  cursor: pointer;
+}
+
+.bd-blue-points div:hover {
+}
+
+.bd-blue-points .points1 {
+  left: 28px;
+  top: 170px;
+}
